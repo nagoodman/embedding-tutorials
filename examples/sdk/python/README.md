@@ -4,12 +4,11 @@
 
 Welcome to Vantage Examples!
 
-In this space, you'll discover a range of resources designed to make your introduction to Vantage smooth and straightforward, including interactive notebooks, scripts, and small starter projects.
+In this space, you'll discover a range of resources designed to make your introduction to Vantage smooth and straightforward, including interactive notebooks and scripts.
 
-Our content is organized into three main categories:
+Our content is organized into two main categories:
 - [Notebooks](./notebooks/) - For those who prefer interactive Jupyter notebooks
 - [Scripts](./scripts/) - Aimed at those interested in standalone Python scripts and ready-to-use examples
-- Starter Projects - [In progress]
 
 ## <img src="assets/vantage_logo_small.png" title="Vantage Discovery Logo" width="15"/> Notebooks
 
@@ -17,9 +16,9 @@ Within this directory, you will find a collection of Jupyter Notebooks that offe
 
 The content is organized into two main sections:
 
-The first, [Getting Started with Vantage](https://github.com/VantageDiscovery/vantage-sdk-python/tree/develop/examples/notebooks/getting_started), includes a series of notebooks that introduce you to the basic features of Vantage.
+The first, [Getting Started with Vantage](./notebooks/getting_started), includes a series of notebooks that introduce you to the basic features of Vantage.
 
-The second, [Use Cases](https://github.com/VantageDiscovery/vantage-sdk-python/tree/develop/examples/notebooks/use_cases), presents a variety of notebooks showcasing different ways to use Vantage. This includes both complex scenarios you may encounter and straightforward examples to kickstart your journey.
+The second, [Use Cases](./notebooks/use_cases), presents a variety of notebooks showcasing different ways to use Vantage. This includes both complex scenarios you may encounter and straightforward examples to kickstart your journey.
 
 ## <img src="assets/vantage_logo_small.png" title="Vantage Discovery Logo" width="15"/> Scripts
 
@@ -27,6 +26,3 @@ This directory is dedicated to showcasing practical examples of how to use our S
 
 They cover a wide range of functionalities, providing clear code snippets and comments to guide you through the process of integrating our SDK into your projects efficiently. Browse through the collection to discover how you can leverage our SDK to its fullest potential.
 
-## <img src="assets/vantage_logo_small.png" title="Vantage Discovery Logo" width="15"/> Starter Projects
-
-[In progress]
