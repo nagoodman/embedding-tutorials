@@ -8,9 +8,9 @@ This space is dedicated to helping you understand the foundational aspects of th
 
 The content is organized into two main sections:
 
-The first, [Getting Started with Vantage](https://github.com/VantageDiscovery/vantage-sdk-python/tree/develop/examples/notebooks/getting_started), includes a series of notebooks that introduce you to the basic features of Vantage.
+The first, [Getting Started with Vantage](./getting_started), includes a series of notebooks that introduce you to the basic features of Vantage.
 
-The second, [Use Cases](https://github.com/VantageDiscovery/vantage-sdk-python/tree/develop/examples/notebooks/use_cases), presents a variety of notebooks showcasing different ways to use Vantage. This includes both complex scenarios you may encounter and straightforward examples to kickstart your journey.
+The second, [Use Cases](./use_cases), presents a variety of notebooks showcasing different ways to use Vantage. This includes both complex scenarios you may encounter and straightforward examples to kickstart your journey.
 
 ## <img src="../assets/vantage_logo_small.png" title="Vantage Discovery Logo" width="15"/> Getting Started with Vantage
 
