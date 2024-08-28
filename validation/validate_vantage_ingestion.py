@@ -5,10 +5,45 @@ import argparse
 from typing import Dict, Any
 
 def read_file(file_path: str) -> pd.DataFrame:
+    """
+    Read a JSONL or Parquet file and return a pandas DataFrame.
+    
+    Args:
+        file_path (str): Path to the input file.
+    
+    Returns:
+        pd.DataFrame: DataFrame containing the file contents.
+    
+    Raises:
+        ValueError: If the file format is not supported.
+    """
     if file_path.endswith('.jsonl'):
-        return pd.read_json(file_path, lines=True)
+        # Specify dtypes for known columns
+        dtypes = {
+            'id': str,
+            'text': str
+        }
+        
+        # Read the JSONL file with explicit dtypes
+        df = pd.read_json(file_path, lines=True, dtype=dtypes)
+        
+        # Ensure 'id' and 'text' are treated as strings
+        df['id'] = df['id'].astype(str)
+        df['text'] = df['text'].astype(str)
+        
+        return df
+    
     elif file_path.endswith('.parquet'):
-        return pd.read_parquet(file_path)
+        # Read the Parquet file
+        df = pd.read_parquet(file_path)
+        
+        # Ensure 'id' and 'text' are treated as strings if they exist
+        if 'id' in df.columns:
+            df['id'] = df['id'].astype(str)
+        if 'text' in df.columns:
+            df['text'] = df['text'].astype(str)
+        
+        return df
     else:
         raise ValueError("Unsupported file format. Please use .jsonl or .parquet files.")
 
