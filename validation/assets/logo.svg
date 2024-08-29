@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#FF5733"/>
+  
+  <!-- Clean "V" shape for Vantage -->
+  <path d="M60 65 L100 135 L140 65" stroke="white" stroke-width="12" fill="none" stroke-linejoin="round"/>
+  
+  <!-- Text -->
+  <text x="100" y="180" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Ingestion Validator</text>
+</svg>

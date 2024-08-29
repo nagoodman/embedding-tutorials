@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="./assets/logo.svg" alt="Vantage Ingestion Validator Logo" width="200"/>
+</p>
+
+# Vantage Ingestion Validator
+
 # Vantage Ingestion Validator
 
 ## Overview
