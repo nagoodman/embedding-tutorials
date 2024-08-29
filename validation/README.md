@@ -4,8 +4,6 @@
 
 # Vantage Ingestion Validator
 
-# Vantage Ingestion Validator
-
 ## Overview
 
 The Vantage Ingestion Validator is a Python script designed to validate JSONL and Parquet files according to the Vantage Ingestion Format (VIF) specifications. It ensures that data files meet the required structure and content guidelines before ingestion into the Vantage system.
