@@ -1,0 +1,4 @@
+{"id": "1", "text": "This is a sample text for document 1", "meta_category": "A", "meta_score": 0.95}
+{"id": "1", "text": "Duplicate ID", "meta_category": "B", "meta_score": 0.87}
+{"id": "3", "text": null, "meta_category": "A", "meta_score": 0.92}
+{"id": "4", "invalid_meta": "Invalid metadata field name", "meta_score": 0.88}
