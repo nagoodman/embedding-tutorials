@@ -39,7 +39,7 @@ Welcome! This session is all about AI embeddings. We’ll unravel what they are,
 - Real-World Applications
   - Semantic Search
   - Recommendation Systems
-  - Reponse-Augmented Generation
+  - Retrieval-Augmented Generation
 - Challenges
 - Future
 </div>
