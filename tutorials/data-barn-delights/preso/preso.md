@@ -2,7 +2,7 @@
 marp: true
 theme: default
 paginate: true
-title: Introduction to AI Embeddings
+title: Math, Magic, and Meaning
 description: A deep dive into embeddings—what they are, how they came to be, and their powerful applications.
 style: |
   .columns {
@@ -18,8 +18,11 @@ style: |
 
 ---
 
-# AI Embeddings: A Foundation of Modern AI
-### From incomprehensible coordinate systems to real-world impact
+# Math, Magic, and Meaning
+### Unlocking AI’s Hidden Superpower
+
+(Presentation AND Notebook)
+https://github.com/nagoodman/embedding-tutorials
 
 <!-- Speaker Notes:
 Welcome! This session is all about AI embeddings. We’ll unravel what they are, take a brief look at their origins, and explore their wide range of applications. Throughout, we’ll use examples from the "Barn Delights" store to keep things practical and relatable.
@@ -37,12 +40,16 @@ Welcome! This session is all about AI embeddings. We’ll unravel what they are,
   - Semantic Search
   - Recommendation Systems
   - Reponse-Augmented Generation
+- Challenges
+- Future
 </div>
 <div>
 
 ## Nicholas Goodman
 
 ![](ngoodman_headshot.png)
+LinkedIn: @nicholasandrewgoodman
+X: @notachanceimstillthere
 
 </div>
 </div>
